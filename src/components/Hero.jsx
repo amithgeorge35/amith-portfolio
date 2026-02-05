@@ -28,7 +28,7 @@ export default function Hero() {
 
         <div className="mt-8 flex flex-wrap gap-3">
           <a
-            href="/resume.pdf"
+            href={`${import.meta.env.BASE_URL}resume.pdf`}
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center justify-center rounded-lg border border-white/15 px-4 py-2 text-sm font-medium text-white hover:bg-white/10"
