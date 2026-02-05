@@ -14,14 +14,14 @@ export default function Skills() {
           <div>
             <h3 className="text-sm font-semibold text-gray-200">Languages</h3>
             <div className="mt-3 flex flex-wrap gap-2">
-              <Chip>Java</Chip><Chip>Python</Chip><Chip>SQL</Chip><Chip>JavaScript</Chip><Chip>HTML</Chip><Chip>CSS</Chip>
+              <Chip>Java</Chip><Chip>Python</Chip><Chip>SQL</Chip><Chip>JavaScript</Chip><Chip>HTML</Chip><Chip>CSS</Chip><Chip>C++</Chip>
             </div>
           </div>
 
           <div>
             <h3 className="text-sm font-semibold text-gray-200">Frameworks</h3>
             <div className="mt-3 flex flex-wrap gap-2">
-              <Chip>Spring Boot</Chip><Chip>Flask</Chip><Chip>FastAPI</Chip><Chip>React</Chip><Chip>Angular</Chip><Chip>Junit</Chip>
+              <Chip>Spring Boot</Chip><Chip>Django</Chip><Chip>Flask</Chip><Chip>FastAPI</Chip><Chip>React</Chip><Chip>Angular</Chip><Chip>Junit</Chip>
             </div>
           </div>
 
@@ -33,23 +33,30 @@ export default function Skills() {
           </div>
 
           <div>
-            <h3 className="text-sm font-semibold text-gray-200">Database & Tools</h3>
+            <h3 className="text-sm font-semibold text-gray-200">Databases</h3>
             <div className="mt-3 flex flex-wrap gap-2">
-              <Chip>Oracle</Chip><Chip>Snowflake</Chip><Chip>Hibernate</Chip><Chip>MySQL</Chip><Chip>SQL Server</Chip><Chip>MongoDB</Chip><Chip>PostgreSQL</Chip><Chip>JIRA</Chip><Chip>Informatica</Chip><Chip>PyTorch</Chip><Chip>Postman</Chip>
+              <Chip>Oracle</Chip><Chip>Snowflake</Chip><Chip>Hibernate</Chip><Chip>MySQL</Chip><Chip>SQL Server</Chip><Chip>MongoDB</Chip><Chip>PostgreSQL</Chip><Chip>Aurora</Chip><Chip>Terradata</Chip>
+          </div>
+          </div>
+
+          <div>
+            <h3 className="text-sm font-semibold text-gray-200">Tools</h3>
+            <div className="mt-3 flex flex-wrap gap-2">
+              <Chip>Hibernate</Chip><Chip>JIRA</Chip><Chip>Informatica</Chip><Chip>PyTorch</Chip><Chip>Postman</Chip><Chip>Cursor</Chip><Chip>Linux</Chip><Chip>PowerBI</Chip><Chip>Microstrategy</Chip><Chip>SOAP UI</Chip><Chip>Guidewire</Chip>
             </div>
           </div>
 
           <div>
             <h3 className="text-sm font-semibold text-gray-200">Software Engineering Foundations</h3>
             <div className="mt-3 flex flex-wrap gap-2">
-              <Chip>Microservices</Chip><Chip>RESTful API</Chip><Chip>Agile & Waterfall Methodology</Chip><Chip>ETL</Chip>
+              <Chip>Microservices</Chip><Chip>RESTful API</Chip><Chip>Agile & Waterfall Methodology</Chip><Chip>Data Structures & Algorithms</Chip><Chip>ETL</Chip><Chip>Object-Oriented Design</Chip><Chip>Unit testing</Chip><Chip>Version Control</Chip>
             </div>
           </div>
 
           <div>
             <h3 className="text-sm font-semibold text-gray-200">AI/ML</h3>
             <div className="mt-3 flex flex-wrap gap-2">
-              <Chip>LLMs</Chip><Chip>RAG</Chip><Chip>Multi-Agent Systems</Chip><Chip>LangChain</Chip><Chip>NLP</Chip><Chip>Prompt Engineering</Chip><Chip>Transformer Models</Chip>
+              <Chip>LLMs</Chip><Chip>RAG</Chip><Chip>Multi-Agent Systems</Chip><Chip>LangGraph</Chip><Chip>NLP</Chip><Chip>Prompt Engineering</Chip><Chip>Transformer Models</Chip>
             </div>
           </div>
         </div>

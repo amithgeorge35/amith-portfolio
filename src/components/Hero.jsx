@@ -2,15 +2,15 @@ export default function Hero() {
   return (
     <section id="top" className="bg-gray-950">
       <div className="mx-auto max-w-5xl px-4 py-16 sm:py-24">
-        <p className="text-sm text-gray-400">Software Engineer • Full Stack • Cloud • Distributed Systems • AI</p>
+        <p className="text-sm text-gray-400">Software Engineer • Full Stack • Cloud • Distributed Systems • AI Engineering</p>
 
         <h1 className="mt-3 text-4xl sm:text-5xl font-bold tracking-tight text-white">
           Hi, I’m Amith George.
         </h1>
 
        <p className="mt-5 max-w-3xl text-gray-300 leading-relaxed">
-  I am a Full-Stack Software Engineer with over 4 years of experience building
-  end-to-end applications using React on the frontend and scalable backend
+  I am a Full-Stack Software Engineer with 5 years of experience building
+  end-to-end applications using React & Angular on the frontend and scalable backend
   services with Java, Spring Boot, Python, and SQL. I have worked extensively
   with cloud-native architectures on AWS, designing REST APIs, event-driven
   systems using Kafka, and CI/CD pipelines for reliable, production deployments.
