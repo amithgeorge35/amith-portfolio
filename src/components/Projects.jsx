@@ -4,6 +4,22 @@ export default function Projects() {
       <div className="mx-auto max-w-5xl px-4 py-16">
         <h2 className="text-2xl font-bold tracking-tight">Projects</h2>
 
+<div className="mt-4">
+  <a
+    href="https://github.com/amithgeorge35"
+    target="_blank"
+    rel="noreferrer"
+    className="inline-flex items-center gap-2 rounded-lg bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-200"
+  >
+    View all projects on GitHub →
+  </a>
+</div>
+
+<p className="mt-3 text-gray-300 max-w-2xl">
+  Below are some of the projects I have worked on, spanning full-stack development,
+  machine learning, and applied AI systems.
+</p>
+
         <div className="mt-8 grid gap-6 sm:grid-cols-2">
           
           {/* Project 1 */}

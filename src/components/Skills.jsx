@@ -14,7 +14,7 @@ export default function Skills() {
           <div>
             <h3 className="text-sm font-semibold text-gray-200">Languages</h3>
             <div className="mt-3 flex flex-wrap gap-2">
-              <Chip>Java</Chip><Chip>Python</Chip><Chip>SQL</Chip><Chip>JavaScript</Chip><Chip>HTML</Chip><Chip>CSS</Chip><Chip>C++</Chip>
+              <Chip>Java</Chip><Chip>Python</Chip><Chip>SQL</Chip><Chip>Node.js</Chip><Chip>JavaScript</Chip><Chip>HTML</Chip><Chip>CSS</Chip><Chip>C++</Chip><Chip>Typescript</Chip>
             </div>
           </div>
 
@@ -26,9 +26,9 @@ export default function Skills() {
           </div>
 
           <div>
-            <h3 className="text-sm font-semibold text-gray-200">Cloud & DevOps</h3>
+            <h3 className="text-sm font-semibold text-gray-200">Cloud & Infrastructure</h3>
             <div className="mt-3 flex flex-wrap gap-2">
-              <Chip>AWS</Chip><Chip>Docker</Chip><Chip>Github</Chip><Chip>CI/CD</Chip><Chip>Kubernetes</Chip><Chip>Jenkins</Chip><Chip>Kafka</Chip>
+              <Chip>AWS (S3, EC2, ECS, Lambda, CloudWatch, SNS, CloudFront)</Chip><Chip>Azure</Chip><Chip>Docker</Chip><Chip>Github</Chip><Chip>CI/CD</Chip><Chip>Kubernetes</Chip><Chip>Jenkins</Chip><Chip>Kafka</Chip>
             </div>
           </div>
 
@@ -42,21 +42,21 @@ export default function Skills() {
           <div>
             <h3 className="text-sm font-semibold text-gray-200">Tools</h3>
             <div className="mt-3 flex flex-wrap gap-2">
-              <Chip>Hibernate</Chip><Chip>JIRA</Chip><Chip>Informatica</Chip><Chip>PyTorch</Chip><Chip>Postman</Chip><Chip>Cursor</Chip><Chip>Linux</Chip><Chip>PowerBI</Chip><Chip>Microstrategy</Chip><Chip>SOAP UI</Chip><Chip>Guidewire</Chip>
+              <Chip>Git</Chip><Chip>Hibernate</Chip><Chip>JIRA</Chip><Chip>Informatica</Chip><Chip>PyTorch</Chip><Chip>Postman</Chip><Chip>Cursor</Chip><Chip>Linux</Chip><Chip>PowerBI</Chip><Chip>Microstrategy</Chip><Chip>SOAP UI</Chip><Chip>Guidewire</Chip>
             </div>
           </div>
 
           <div>
             <h3 className="text-sm font-semibold text-gray-200">Software Engineering Foundations</h3>
             <div className="mt-3 flex flex-wrap gap-2">
-              <Chip>Microservices</Chip><Chip>RESTful API</Chip><Chip>Agile & Waterfall Methodology</Chip><Chip>Data Structures & Algorithms</Chip><Chip>ETL</Chip><Chip>Object-Oriented Design</Chip><Chip>Unit testing</Chip><Chip>Version Control</Chip>
+              <Chip>Microservices</Chip><Chip>RESTful API</Chip><Chip>Agile & Waterfall Methodology</Chip><Chip>Data Structures & Algorithms</Chip><Chip>ETL</Chip><Chip>Object-Oriented Design</Chip><Chip>Unit testing</Chip>
             </div>
           </div>
 
           <div>
             <h3 className="text-sm font-semibold text-gray-200">AI/ML</h3>
             <div className="mt-3 flex flex-wrap gap-2">
-              <Chip>LLMs</Chip><Chip>RAG</Chip><Chip>Multi-Agent Systems</Chip><Chip>LangGraph</Chip><Chip>NLP</Chip><Chip>Prompt Engineering</Chip><Chip>Transformer Models</Chip>
+              <Chip>LLMs</Chip><Chip>RAG</Chip><Chip>Multi-Agent Systems</Chip><Chip>LangGraph</Chip><Chip>NLP</Chip><Chip>Prompt Engineering</Chip><Chip>Transformer Models</Chip><Chip>Vector Databases</Chip>
             </div>
           </div>
         </div>
