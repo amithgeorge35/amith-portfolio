@@ -1,0 +1,59 @@
+const Chip = ({ children }) => (
+  <span className="inline-flex items-center rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-gray-200">
+    {children}
+  </span>
+);
+
+export default function Skills() {
+  return (
+    <section id="skills" className="bg-gray-950 border-t border-white/10">
+      <div className="mx-auto max-w-5xl px-4 py-16">
+        <h2 className="text-2xl font-bold tracking-tight">Skills</h2>
+
+        <div className="mt-8 space-y-6">
+          <div>
+            <h3 className="text-sm font-semibold text-gray-200">Languages</h3>
+            <div className="mt-3 flex flex-wrap gap-2">
+              <Chip>Java</Chip><Chip>Python</Chip><Chip>SQL</Chip><Chip>JavaScript</Chip><Chip>HTML</Chip><Chip>CSS</Chip>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-sm font-semibold text-gray-200">Frameworks</h3>
+            <div className="mt-3 flex flex-wrap gap-2">
+              <Chip>Spring Boot</Chip><Chip>Flask</Chip><Chip>FastAPI</Chip><Chip>React</Chip><Chip>Angular</Chip><Chip>Junit</Chip>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-sm font-semibold text-gray-200">Cloud & DevOps</h3>
+            <div className="mt-3 flex flex-wrap gap-2">
+              <Chip>AWS</Chip><Chip>Docker</Chip><Chip>Github</Chip><Chip>CI/CD</Chip><Chip>Kubernetes</Chip><Chip>Jenkins</Chip><Chip>Kafka</Chip>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-sm font-semibold text-gray-200">Database & Tools</h3>
+            <div className="mt-3 flex flex-wrap gap-2">
+              <Chip>Oracle</Chip><Chip>Snowflake</Chip><Chip>Hibernate</Chip><Chip>MySQL</Chip><Chip>SQL Server</Chip><Chip>MongoDB</Chip><Chip>PostgreSQL</Chip><Chip>JIRA</Chip><Chip>Informatica</Chip><Chip>PyTorch</Chip><Chip>Postman</Chip>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-sm font-semibold text-gray-200">Software Engineering Foundations</h3>
+            <div className="mt-3 flex flex-wrap gap-2">
+              <Chip>Microservices</Chip><Chip>RESTful API</Chip><Chip>Agile & Waterfall Methodology</Chip><Chip>ETL</Chip>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-sm font-semibold text-gray-200">AI/ML</h3>
+            <div className="mt-3 flex flex-wrap gap-2">
+              <Chip>LLMs</Chip><Chip>RAG</Chip><Chip>Multi-Agent Systems</Chip><Chip>LangChain</Chip><Chip>NLP</Chip><Chip>Prompt Engineering</Chip><Chip>Transformer Models</Chip>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
