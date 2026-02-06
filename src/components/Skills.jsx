@@ -49,7 +49,7 @@ export default function Skills() {
           <div>
             <h3 className="text-sm font-semibold text-gray-200">Software Engineering Foundations</h3>
             <div className="mt-3 flex flex-wrap gap-2">
-              <Chip>Microservices</Chip><Chip>RESTful API</Chip><Chip>Agile & Waterfall Methodology</Chip><Chip>Data Structures & Algorithms</Chip><Chip>ETL</Chip><Chip>Object-Oriented Design</Chip><Chip>Unit testing</Chip>
+              <Chip>Microservices</Chip><Chip>RESTful API</Chip><Chip>GraphQL</Chip><Chip>Agile & Waterfall Methodology</Chip><Chip>Data Structures & Algorithms</Chip><Chip>ETL</Chip><Chip>Unit testing</Chip>
             </div>
           </div>
 

@@ -25,7 +25,7 @@ export default function Experience() {
               <p className="text-sm text-gray-400">Aug 2025 – Present</p>
             </div>
             <ul className="mt-4 list-disc pl-5 space-y-2 text-sm text-gray-300">
-              <li>Built responsive React.js interfaces integrated with Java-based REST APIs for efficient data exchange and real-time state management.</li>
+              <li>Engineered dynamic, responsive user interfaces using React.js and JavaScript, integrating with Python (FastAPI)-based GraphQL APIs to enable efficient data exchange and real-time state management.</li>
               <li>Architected a multi-agent system using LangGraph and GPT-4o to automate volunteer matching and reduce triage time.</li>
               <li>Built a RAG-driven support interface in React backed by Pinecone to provide context-aware documentation support.</li>
             </ul>
